@@ -55,13 +55,13 @@ Run the website
 
 Simply open index.html in your browser!
 
-** Inspirational Quote API **
+**Inspirational Quote API**
 
 Powered by ZenQuotes.io
  — a free public API for motivational and life quotes.
 
 
-** Contributing **
+**Contributing**
 
 If you'd like to improve this project:
 
@@ -73,7 +73,7 @@ Make your changes
 
 Submit a pull request
 
-** Acknowledgments **
+**Acknowledgments**
 
 Designed & Developed by: Prarthana Ingawale
 
