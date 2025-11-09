@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cancer Awareness & Support — Together We Can</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎀 Cancer Awareness & Support — Together We Can</h1>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <h2>Together We Can Fight Cancer</h2>
+        <p>Join us in spreading awareness, supporting survivors, and giving hope.</p>
+        <a href="#contact" class="cta-button">Join the Cause</a>
+      </div>
+    </section>
+
+    <!-- Awareness Cards -->
+    <section class="awareness-section">
+      <h2>💖 How You Can Make a Difference</h2>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-icon">🔍</div>
+          <h3>Early Detection Saves Lives</h3>
+          <p>Regular screenings and check-ups are crucial for catching cancer early when it's most treatable.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <h3>Support Cancer Research</h3>
+          <p>Your contributions help fund research that brings us closer to better treatments and cures.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💝</div>
+          <h3>Encourage Regular Checkups</h3>
+          <p>Spread awareness about routine health screenings and self-checks — knowledge saves lives.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+      <div class="quote-container" id="quoteContainer">
+        <div class="quote-text">Loading inspiration...</div>
+      </div>
+      <button class="new-quote-btn" id="newQuoteBtn" type="button">✨ New Quote</button>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <h2>📩 Get in Touch</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required placeholder="Your full name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="your.email@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Share your thoughts, story, or questions..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+      <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+      <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+    </div>
+    <p>© 2025 Cancer Awareness & Support | Together We Can</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Popup -->
+  <div id="popup" class="popup" role="dialog" aria-live="polite">
+    <div class="popup-inner">
+      <p>✅ Thank you! Your message has been received. We'll get back to you soon.</p>
+      <button id="closePopup" class="popup-close">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
